@@ -1,0 +1,15 @@
+.item{
+  padding:1rem;
+  border-radius:1rem;
+  background-color:var(--result-item-bg);
+  
+  .title{
+    color: var(--result-item-title);
+  }
+
+  .description{
+    color: var(--result-item-desc);
+    line-height: 1.5;
+    hyphens: auto;
+  }
+}
